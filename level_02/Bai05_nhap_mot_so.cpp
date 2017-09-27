@@ -4,17 +4,13 @@
 int main()
 {
 	int a;
-	printf("Nhap 1 de tinh cv,dt hinh tam giac \nNhap 2 de tinh cv,dt hinh vuong \nNhap 3 de tính cv,dt hinh chu nhat \nNhap 4 de tinh cv,dt hinh tron \n");
+	printf("Nhap 1 de tinh cv,dt hinh tam giac \nNhap 2 de tinh cv,dt hinh vuong \nNhap 3 de tÃ­nh cv,dt hinh chu nhat \nNhap 4 de tinh cv,dt hinh tron \n");
 	scanf("%d",&a);
 	if (a==1)
 		{	
 			float a,b,c,C,S,p;
-			printf("nhap do dai a ");
-			scanf("%f",&a);
-			printf("nhap do dai b ");
-			scanf("%f",&b);
-			printf("nhap do dai c ");
-			scanf("%f",&c);
+			printf("nhap do dai 3 canh cua tam giac ");
+			scanf("%f%f%f",&a,&b,&c);
 			C=a+b+c;
 			p=C/2;
 			S=sqrt(p*(p-a)*(p-b)*(p-c));
@@ -34,10 +30,8 @@ int main()
 	if (a==3)
 		{
 			float a,b,C,S;
-			printf("nhap do dai a ");
-			scanf("%f",&a);
-			printf("nhap do dai b ");
-			scanf("%f",&b);
+			printf("nhap do dai 2 canh cua hinh chu nhat ");
+			scanf("%f%f",&a,&b);
 			S=a*b;
 			C=2*a+2*b;
 			printf("Chu vi %0.2f",C);
