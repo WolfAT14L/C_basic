@@ -3,7 +3,7 @@
 int main()
 {
 	float a,b,c,d,x1,x2;
-	printf("nhap cac so a, b, c cua phuong trinh bat 2 ");
+	printf("nhap he so a, b, c cua phuong trinh bat 2 ");
 	scanf("%f%f%f",&a,&b,&c);
 	d=pow(b,2)-4*a*c;
 	x1=(-pow(b,2)-sqrt(d))/(2*a);
