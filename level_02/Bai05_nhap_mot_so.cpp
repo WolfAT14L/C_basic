@@ -20,7 +20,7 @@ int main()
 	if (a==2) 
 		{
 			float a,C,S;
-			printf("nhap do dai a ");
+			printf("nhap do dai canh hinh vuong ");
 			scanf("%f",&a);
 			S=a*a;
 			C=4*a;
